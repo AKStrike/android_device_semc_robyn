@@ -7,9 +7,9 @@ $(call inherit-product-if-exists, vendor/semc/robyn/device_robyn-vendor.mk)
 
 
 # Discard inherited values and use our own instead.
-PRODUCT_NAME := X10 Mini
+PRODUCT_NAME := X10Mini
 PRODUCT_DEVICE := robyn
-PRODUCT_MODEL := X10 Mini
+PRODUCT_MODEL := X10Mini
 
 ifeq ($(TARGET_PREBUILT_KERNEL),)
 LOCAL_KERNEL := device/semc/robyn/kernel
@@ -218,4 +218,4 @@ PRODUCT_COPY_FILES += \
     device/semc/shakira/prebuilt/GDXUpdateNotify.apk:/system/app/GDXUpdateNotify.apk \
     device/semc/shakira/prebuilt/HoloLauncher.apk:/system/app/HoloLauncher.apk \
     device/semc/shakira/prebuilt/GPSCountryOptimizer.apk:/system/app/GPSCountryOptimizer.apk \
-    device/semc/shakira/prebuilt/libqpicjni87.so:/system/lib/libqpicjni87.so
+    device/semc/shakira/prebuilt/libqpicjni88.so:/system/lib/libqpicjni88.so

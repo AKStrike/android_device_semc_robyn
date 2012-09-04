@@ -51,7 +51,7 @@ TARGET_CPU_ABI2 := armeabi
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno200
 
 TARGET_BOOTLOADER_BOARD_NAME := robyn
-TARGET_OTA_ASSERT_DEVICE := E10i,E10a,robyn
+TARGET_OTA_ASSERT_DEVICE := E10i,E10a,robyn,X10Mini
 PRODUCT_BUILD_PROP_OVERRIDES += TARGET_BOOTLOADER_BOARD_NAME=robyn
 
 WITH_JIT := true
@@ -81,7 +81,7 @@ TARGET_NO_RADIOIMAGE := true
 #TARGET_PREBUILT_KERNEL := device/semc/robyn/kernel
 #TARGET_NO_KERNEL := true
 
-WITH_DEXPREOPT := true
+WITH_DEXPREOPT := false
 
 BOARD_CUSTOM_BOOTIMG_MK := device/semc/msm7x27-common/custombootimg.mk
 TARGET_RECOVERY_PRE_COMMAND := "mkdir /cache/recovery;touch /cache/recovery/boot;sync;"
