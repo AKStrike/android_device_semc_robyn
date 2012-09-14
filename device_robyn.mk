@@ -219,3 +219,53 @@ PRODUCT_COPY_FILES += \
     device/semc/shakira/prebuilt/HoloLauncher.apk:/system/app/HoloLauncher.apk \
     device/semc/shakira/prebuilt/GPSCountryOptimizer.apk:/system/app/GPSCountryOptimizer.apk \
     device/semc/shakira/prebuilt/libqpicjni88.so:/system/lib/libqpicjni88.so
+
+## Battery Tweak
+    device/semc/shakira/prebuilt/sysctl.conf:/system/etc/sysctl.conf
+
+## SuperSU
+PRODUCT_COPY_FILES += \
+	device/semc/shakira/prebuilt/SuperSU.apk:system/app/SuperSU.apk \
+	device/semc/shakira/prebuilt/su:system/xbin/su
+
+## Extra Cyanogen vendor files
+PRODUCT_COPY_FILES += \
+    vendor/cyanogen/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml
+
+## GingerDX files
+PRODUCT_COPY_FILES += \
+    device/semc/shakira/prebuilt/GalleryDX.apk:/system/app/GalleryDX.apk \
+    device/semc/shakira/prebuilt/GDXUpdateNotify.apk:/system/app/GDXUpdateNotify.apk \
+    device/semc/shakira/prebuilt/HoloLauncher.apk:/system/app/HoloLauncher.apk \
+    device/semc/shakira/prebuilt/GPSCountryOptimizer.apk:/system/app/GPSCountryOptimizer.apk \
+    device/semc/shakira/prebuilt/libqpicjni88.so:/system/lib/libqpicjni88.so
+
+## Gapps
+PRODUCT_COPY_FILES += \
+	device/semc/shakira/prebuilt/gapps/app/CarHomeGoogle.apk:system/app/CarHomeGoogle.apk \
+	device/semc/shakira/prebuilt/gapps/app/FOTAKill.apk:system/app/FOTAKill.apk \
+	device/semc/shakira/prebuilt/gapps/app/GenieWidget.apk:system/app/GenieWidget.apk \
+	device/semc/shakira/prebuilt/gapps/app/Gmail.apk:system/app/Gmail.apk \
+	device/semc/shakira/prebuilt/gapps/app/GoogleBackupTransport.apk:system/app/GoogleBackupTransport.apk \
+	device/semc/shakira/prebuilt/gapps/app/GoogleCalendarSyncAdapter.apk:system/app/GoogleCalendarSyncAdapter.apk \
+	device/semc/shakira/prebuilt/gapps/app/GoogleContactsSyncAdapter.apk:system/app/GoogleContactsSyncAdapter.apk \
+	device/semc/shakira/prebuilt/gapps/app/GoogleFeedback.apk:system/app/GoogleFeedback.apk \
+	device/semc/shakira/prebuilt/gapps/app/GooglePartnerSetup.apk:system/app/GooglePartnerSetup.apk \
+	device/semc/shakira/prebuilt/gapps/app/GoogleQuickSearchBox.apk:system/app/GoogleQuickSearchBox.apk \
+	device/semc/shakira/prebuilt/gapps/app/GoogleServicesFramework.apk:system/app/GoogleServicesFramework.apk \
+	device/semc/shakira/prebuilt/gapps/app/LatinImeTutorial.apk:system/app/LatinImeTutorial.apk \
+	device/semc/shakira/prebuilt/gapps/app/Maps.apk:system/app/Maps.apk \
+	device/semc/shakira/prebuilt/gapps/app/MarketUpdater.apk:system/app/MarketUpdater.apk \
+	device/semc/shakira/prebuilt/gapps/app/MediaUploader.apk:system/app/MediaUploader.apk \
+	device/semc/shakira/prebuilt/gapps/app/NetworkLocation.apk:system/app/NetworkLocation.apk \
+	device/semc/shakira/prebuilt/gapps/app/OneTimeInitializer.apk:system/app/OneTimeInitializer.apk \
+	device/semc/shakira/prebuilt/gapps/app/SetupWizard.apk:system/app/SetupWizard.apk \
+	device/semc/shakira/prebuilt/gapps/app/Talk.apk:system/app/Talk.apk \
+	device/semc/shakira/prebuilt/gapps/app/Vending.apk:system/app/Vending.apk \
+	device/semc/shakira/prebuilt/gapps/app/YouTube.apk:system/app/YouTube.apk \
+	device/semc/shakira/prebuilt/gapps/app/VoiceSearch.apk:system/app/VoiceSearch.apk \
+	device/semc/shakira/prebuilt/gapps/etc/permissions/com.google.android.maps.xml:system/etc/permissions/com.google.android.maps.xml \
+	device/semc/shakira/prebuilt/gapps/etc/permissions/features.xml:system/etc/permissions/features.xml \
+	device/semc/shakira/prebuilt/gapps/framework/com.google.android.maps.jar:system/framework/com.google.android.maps.jar \
+	device/semc/shakira/prebuilt/gapps/lib/libtalk_jni.so:system/lib/libtalk_jni.so \
+	device/semc/shakira/prebuilt/gapps/lib/libvoicesearch.so:system/lib/libvoicesearch.so

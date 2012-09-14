@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Whether or not to display the trackball settings -->
-    <bool name="has_trackball">false</bool>
+    <add-resource type="bool" name="has_trackball">false</add-resource>
 
     <!-- Whether or not to display the camera button settings -->
-    <bool name="has_camera_button">true</bool>
+    <add-resource type="bool" name="has_camera_button">true</add-resource>
 
     <!-- Notification LED can show any color -->
-    <bool name="has_rgb_notification_led">true</bool>
+    <add-resource type="bool" name="has_rgb_notification_led">true</add-resource>
 
     <!-- LED Flashlight -->
-    <bool name="has_led_flash">true</bool>
+    <add-resource type="bool" name="has_led_flash">true</add-resource>
 
     <!-- Whether or not to display search button settings -->
-    <bool name="has_search_button">false</bool>
+    <add-resource type="bool" name="has_search_button">false</add-resource>
 
     <!-- Undervolting kernel module -->
-    <string name="undervolting_module">x10miniuv.ko</string>
+    <add-resource type="string" name="undervolting_module">x10miniuv.ko</add-resource>
 </resources>
